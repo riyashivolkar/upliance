@@ -1,4 +1,49 @@
+
+# 🚀 Upliance Beta  
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://upliance-beta.vercel.app/)  
+
+A modern React-based web application with interactive UI, state management, and scroll-triggered animations.  
+
+---
+
+## 🌟 Live URL  
+
+🔗 **[Upliance Beta](https://upliance-beta.vercel.app/)**  
+
+---
+
+## 📌 Features  
+
+- **State Management**: `useState` for UI state, `useContext` (recommended) for global form management.  
+- **Scroll Animations**: `@react-spring/web` and `react-intersection-observer` for smooth animations.  
+- **Component-Based Architecture**: Modular components for scalability.  
+- **Responsive UI**: Optimized for various screen sizes using Tailwind CSS.  
+
+---
+
+## 🏗 Component Structure  
+
+### **Stateful Components**  
+- `Counter` – Displays an animated counter.  
+- `RichTextEditor` – Manages rich text input.  
+- `DataForm` – Displays form data.  
+- `Form` – Collects user input and updates state.  
+- `SignIn` – A modal for user authentication.  
+
+### **Layout Components**  
+- `Header` – Navigation bar with a sign-in trigger.  
+
+### **Animations & Effects**  
+- `useSpring` (from `@react-spring/web`) – Manages UI animations.  
+- `useInView` (from `react-intersection-observer`) – Detects when elements appear in the viewport.  
+
+---
+
+
 # React + TypeScript + Vite
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

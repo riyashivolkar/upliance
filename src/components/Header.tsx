@@ -65,7 +65,7 @@ const Header: React.FC<HeaderProps> = ({ onSignInClick }) => {
           <div className="mt-6 mb-4 flex flex-col gap-4">
             <button
               onClick={onSignInClick}
-              className="text-gray-700 cursor-pointer"
+              className="text-gray-100 cursor-pointer"
             >
               Sign in
             </button>
