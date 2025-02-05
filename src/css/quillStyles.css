@@ -1,0 +1,11 @@
+.ql-container {
+    border: none !important; /* Remove the default border */
+    border-radius: 12px; /* Smooth edges */
+    height: 140px;
+}
+
+.ql-toolbar {
+    border: none !important; /* Remove toolbar border */
+    background: #f9f9f9; /* Light gray background */
+    border-radius: 12px 12px 0 0;
+}
